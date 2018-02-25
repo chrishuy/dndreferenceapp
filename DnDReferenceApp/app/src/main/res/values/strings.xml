@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">DnD Reference App</string>
+    <string name="profile">Profile</string>
+    <string name="attacks">Attacks</string>
+    <string name="attributes">Attributes</string>
+    <string name="notes">Notes</string>
+    <string name="others">Other Players</string>
+    <string name="intelligence">INT</string>
+    <string name="charisma">CHA</string>
+    <string name="strength">STR</string>
+    <string name="dexterity">DEX</string>
+    <string name="constitution">CON</string>
+    <string name="wisdom">WIS</string>
+    <string name="proficiency">PROF</string>
+    <string name="armor_class">AC</string>
+    <string name="initiative">INIT</string>
+    <string name="speed">SPD</string>
+    <string name="inspiration">INSP</string>
+    <string name="player_name">Player Name</string>
+    <string name="character_name">Character Name</string>
+    <string name="background">Background</string>
+    <string name="race">Race</string>
+    <string name="save">Save</string>
+    <string name="exp">XP</string>
+    <string name="next_level">Next Level: </string>
+    <string name="saving_throws">Saving Throws</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

@@ -1,0 +1,79 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.dnd.android.dndreferenceapp.FragmentNewCharacter">
+
+    <TextView
+        android:id="@+id/tPlayerName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/player_name"
+        android:textColor="@color/black"
+        android:textSize="@dimen/input_size"/>
+
+    <EditText
+        android:id="@+id/etPlayerName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/attribute_size"
+        android:inputType="textCapSentences"/>
+
+    <TextView
+        android:id="@+id/tCharacterName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/character_name"
+        android:textColor="@color/black"
+        android:textSize="@dimen/input_size"
+        android:layout_marginTop="5dp"/>
+
+    <EditText
+        android:id="@+id/etCharacterName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/attribute_size"
+        android:inputType="textCapSentences"/>
+
+    <TextView
+        android:id="@+id/tRace"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/race"
+        android:textColor="@color/black"
+        android:textSize="@dimen/input_size"
+        android:layout_marginTop="5dp"/>
+
+    <EditText
+        android:id="@+id/etRace"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/attribute_size"
+        android:inputType="textCapSentences"/>
+
+    <TextView
+        android:id="@+id/tBackground"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/background"
+        android:textColor="@color/black"
+        android:textSize="@dimen/input_size"
+        android:layout_marginTop="5dp"/>
+
+    <EditText
+        android:id="@+id/etBackground"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/attribute_size"
+        android:inputType="textCapSentences"/>
+
+    <Button
+        android:id="@+id/bSave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/save"
+        android:layout_marginTop="5dp"/>
+
+</LinearLayout>

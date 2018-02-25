@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/nProfile"
+        android:enabled="true"
+        android:icon="@drawable/ic_profile"
+        android:title="@string/profile"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/nAttacks"
+        android:enabled="true"
+        android:icon="@drawable/ic_attacks"
+        app:showAsAction="always"
+        android:title="@string/attacks" />
+
+    <item
+        android:title="@string/attributes"
+        android:id="@+id/nAttributes"
+        android:enabled="true"
+        android:icon="@drawable/ic_attributes"
+        app:showAsAction="always" />
+
+    <item
+        android:title="@string/notes"
+        android:id="@+id/nNotes"
+        android:enabled="true"
+        android:icon="@drawable/ic_notes"
+        app:showAsAction="always" />
+</menu>
