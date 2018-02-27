@@ -72,7 +72,6 @@ public class FragmentProfile extends Fragment {
             public void afterTextChanged(Editable editable) {
 
                 int xp;
-                String lvlString = "LVL: " + Integer.toString(refPlayer.getCumLevel());
                 if(editable.toString().equals(""))
                     xp = 0;
                 else
@@ -80,7 +79,8 @@ public class FragmentProfile extends Fragment {
                 levelListener(xp);
                 proficiencyListener(xp);
                 refPlayer.setExperience(xp);
-                cumLevel.setText(lvlString);
+                String newLvlString = "LVL: " + Integer.toString(refPlayer.getCumLevel());
+                cumLevel.setText(newLvlString);
 
             }
         });
