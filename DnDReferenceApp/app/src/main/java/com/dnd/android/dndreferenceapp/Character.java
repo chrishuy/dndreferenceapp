@@ -1,6 +1,7 @@
 package com.dnd.android.dndreferenceapp;
 
 import java.io.Serializable;
+import java.util.ArrayList;
 
 /**
  * This class stores character data in the internal storage. This may be removed when Firebase is implemented
@@ -24,6 +25,7 @@ public class Character implements Serializable {
     private int initiative;
     private int speed;
     private boolean inspiration;
+    private ArrayList<Classes> classes;
 
     /**
      * Constructor to initialize all values.
@@ -42,14 +44,24 @@ public class Character implements Serializable {
         intelligence = 1;
         wisdom = 1;
         charisma = 1;
-
         proficiency = 0;
         armorClass = 0;
         initiative = 0;
         speed = 0;
         inspiration = false;
+        classes = new ArrayList<Classes>();
+        Classes a = new Classes("Warlock");
+        Classes b = new Classes("Warrior");
+        Classes c = new Classes("Ranger");
+        classes.add(a);
+        classes.add(b);
+        classes.add(c);
     }
 
+    public void addClass(Classes newClass)
+    {
+        classes.add(newClass);
+    }
     public void print(){
         System.out.println("Character Name: " + characterName);
         System.out.println("Player Name: " + playerName);
@@ -174,5 +186,9 @@ public class Character implements Serializable {
     }
     public boolean isInspiration() {
         return inspiration;
+    }
+    public ArrayList<Classes> getClasses()
+    {
+        return classes;
     }
 }

@@ -3,6 +3,8 @@ package com.dnd.android.dndreferenceapp;
 
 import android.os.Bundle;
 import android.app.Fragment;
+import android.support.v7.widget.LinearLayoutManager;
+import android.support.v7.widget.RecyclerView;
 import android.text.Editable;
 import android.text.InputFilter;
 import android.text.TextWatcher;
@@ -24,20 +26,22 @@ public class FragmentProfile extends Fragment {
     private TextView name, cumLevel, race, background, nextLevel;
     private EditText experience;
     private Character refPlayer;
+    private RecyclerView rv;
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         final View v = inflater.inflate(R.layout.fragment_profile, container, false);
 
         //Initialize text view
-        name = (TextView) v.findViewById(R.id.tProName);
-        cumLevel = (TextView) v.findViewById(R.id.tProCumLevel);
-        race = (TextView) v.findViewById(R.id.tProRace);
-        background = (TextView) v.findViewById(R.id.tProBackground);
-        nextLevel = (TextView) v.findViewById(R.id.tProNextLevel);
+        name = v.findViewById(R.id.tProName);
+        cumLevel = v.findViewById(R.id.tProCumLevel);
+        race = v.findViewById(R.id.tProRace);
+        background = v.findViewById(R.id.tProBackground);
+        nextLevel = v.findViewById(R.id.tProNextLevel);
+        rv = v.findViewById(R.id.rvClasses);
 
         //Initialize edit texts
-        experience = (EditText) v.findViewById(R.id.etProExperience);
+        experience = v.findViewById(R.id.etProExperience);
 
         //Reference to player object
         refPlayer = ((HomeActivity)getActivity()).player;
@@ -84,6 +88,14 @@ public class FragmentProfile extends Fragment {
 
             }
         });
+
+        //Filling class recyclerview
+        rv.setHasFixedSize(true);
+        LinearLayoutManager llm = new LinearLayoutManager(getActivity());
+        rv.setLayoutManager(llm);
+
+        CustomClassRVAdapter adapter = new CustomClassRVAdapter(refPlayer.getClasses());
+        rv.setAdapter(adapter);
 
         return v;
     }
