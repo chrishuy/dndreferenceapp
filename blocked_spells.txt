@@ -1,0 +1,114 @@
+***********LOCKED SPELLS: 113***********
+Arcane Gate
+Armor of Agathys
+Arms of Hadar
+Aura of Life
+Aura of Purity
+Aura of Vitality
+Banishing Smite
+Beast Sense
+Bigby's Hand
+Blade Ward
+Blinding Smite
+Booming Blade
+Catnap
+Cause Fear
+Ceremony
+Chaos Bolt
+Charm Monster
+Chromatic Orb
+Circle of Power
+Cloud of Daggers
+Compelled Duel
+Conjure Barrage
+Conjure Volley
+Cordon of Arrows
+Create Homunculus
+Crown of Madness
+Crown of Stars
+Crusader's Mantle
+Danse Macabre
+Dawn
+Destructive Wave
+Dissonant Whispers
+Dragon's Breath
+Drawmij's Instant Summons
+Druid Grove
+Elemental Weapon
+Enemies Abound
+Enervation
+Ensnaring Strike
+Evard's Black Tentacles
+Far Step
+Feign Death
+Find Greater Steed
+Friends
+Grasping Vine
+Green-Flame Blade
+Guardian of Nature
+Hail of Thorns
+Healing Spirit
+Hex
+Holy Weapon
+Hunger of Hadar
+Illusory Dragon
+Infernal Calling
+Infestation
+Invulnerability
+Leomund's Secret Chest
+Leomund's Tiny Hut
+Life Transference
+Lightning Arrow
+Lightning Lure
+Maddening Darkness
+Mass Polymorph
+Melf's Acid Arrow
+Mental Prison
+Mighty Fortress
+Mind Spike
+Mordenkainen's Faithful Hound
+Mordenkainen's Private Sanctum
+Mordenkainen's Magnificent Mansion
+Negative Energy Flood
+Nystul's Magic Aura
+Otiluke's Resilient Sphere
+Otiluke's Freezing Sphere
+Phantasmal Force
+Power Word Heal
+Power Word Pain
+Primal Savagery
+Psychic Scream
+Rary's Telepathic Bond
+Ray of Sickness
+Scatter
+Searing Smite
+Shadow Blade
+Shadow of Moil
+Sickening Radiance
+Skill Empowerment
+Snare
+Soul Cage
+Staggering Smite
+Steel Wind Strike
+Summon Greater Demon
+Summon Lesser Demons
+Swift Quiver
+Sword Burst
+Synaptic Static
+Tasha's Hideous Laughter
+Telepathy
+Temple of the Gods
+Tenser's Floating Disk
+Tenser's Transformation
+Thorn Whip
+Thunder Step
+Thunderous Smite
+Tiny Servant
+Toll the Dead
+Tsunami
+Wall of Light
+Witch Bolt
+Word of Radiance
+Wrath of Nature
+Wrathful Smite
+Zephyr Strike
